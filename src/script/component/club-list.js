@@ -18,6 +18,7 @@ class ClubList extends HTMLElement {
             clubItemElemnt.club = club1;
             this.shadowDOM.appendChild(clubItemElemnt);
         });
+        //console.log(this._clubs);
     }
 
     renderError(error) {

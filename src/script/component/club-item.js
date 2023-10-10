@@ -50,6 +50,8 @@ class ClubItem extends HTMLElement {
             <h2> ${this._club.strTeam} </h2>
             <p> ${this._club.strDescriptionEN} </p>
         </div>`;
+
+        console.log(this._club);
     }
 }
 
